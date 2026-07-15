@@ -7,7 +7,7 @@
 
 ## 1. Context / Purpose
 
-`spec-pack.md` is the central specification document for each ticket in the SDD Evidence Collection & Analysis flow. This parser function is responsible for reading the file according to the standard template, normalizing it into structured data, and providing input for Artifact Inventory, Evidence Quality Score, AC-Test Coverage, Traceability Map, and Data Quality Dashboard.
+`spec-pack.md` is the central specification document for each ticket in the SDD Evidence Collection & Analysis flow. This parser function is responsible for reading the file according to the standard template, normalizing it into structured data, and providing input for Artifact Inventory, Evidence Quality Score, AC-Test Coverage, Traceability Map, and Data Quality Dashboard
 
 The original requirement source used in this phase names the function `SPEC-PACK-PARSER`, while the repository working folder currently uses `PARSER-SPEC-PACK`. In this document, `PARSER-SPEC-PACK` is the operational ticket key used in the repository.
 
