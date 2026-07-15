@@ -1,9 +1,9 @@
 # Spec Pack
 
-**Ticket ID**: PARSER-SPEC-PACK  
-**Create date**: 2026-06-19  
-**Author**: nk_trung  
-**Update date**: 2026-06-19  
+**Ticket ID**: PARSER-SPEC-PACK
+**Create date**: 2026-06-19
+**Author**: nk_trung
+**Update date**: 2026-06-19
 
 ## 1. Context / Purpose
 
