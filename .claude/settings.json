@@ -1,0 +1,50 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(**/.env)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Read(**/*.p12)",
+      "Read(**/*.jks)",
+      "Read(**/*.keystore)",
+      "Read(**/*id_rsa*)",
+      "Read(**/*id_ed25519*)",
+      "Read(**/*credential*)",
+      "Read(**/*secret*)",
+      "Bash(*rm -rf*)",
+      "Bash(*DROP TABLE*)",
+      "Bash(*DROP DATABASE*)",
+      "Bash(*TRUNCATE TABLE*)",
+      "Bash(*git push*--force*)",
+      "Bash(*git push* -f *)",
+      "Bash(*git reset --hard*origin*)",
+      "Bash(*git clean -f*)",
+      "Bash(*git clean -fd*)"
+    ],
+    "allow": [
+      "Read(d:/EDCAP_FULL/EDCAP_BE/src/**)",
+      "Read(d:/EDCAP_FULL/EDCAP_BE/pom.xml)",
+      "Read(d:/EDCAP_FULL/EDCAP_BE/docker-compose.yml)",
+      "Read(d:/EDCAP_FULL/EDCAP_BE/README.md)",
+      "Read(d:/EDCAP_FULL/EDCAP_FE/src/**)",
+      "Read(d:/EDCAP_FULL/EDCAP_FE/package.json)",
+      "Read(d:/EDCAP_FULL/EDCAP_FE/tsconfig.json)",
+      "Read(d:/EDCAP_FULL/EDCAP_FE/vite.config.*)",
+      "Read(d:/EDCAP_FULL/EDCAP_FE/eslint.config.*)",
+      "Read(d:/EDCAP_FULL/EDCAP_FE/README.md)",
+      "Read(d:/EDCAP_FULL/docs/**)",
+      "Read(d:/EDCAP_FULL/.claude/**)",
+      "Bash(mvn clean*)",
+      "Bash(mvn test*)",
+      "Bash(mvn compile*)",
+      "Bash(mvn verify*)",
+      "Bash(mvn package -DskipTests*)",
+      "Bash(npm run build*)",
+      "Bash(npm run test*)",
+      "Bash(npm run lint*)",
+      "Bash(npm test*)",
+      "Bash(npx tsc*)",
+      "Glob(*)"
+    ]
+  }
+}
