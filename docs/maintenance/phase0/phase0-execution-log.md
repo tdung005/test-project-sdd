@@ -99,3 +99,5 @@
 ## Note (2026-11-04)
 
 Test edit: added this note to verify the commit workflow. No source code touched.
+
+Test edit 2: verify pull_request.count telemetry.
